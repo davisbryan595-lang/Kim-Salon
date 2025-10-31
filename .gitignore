@@ -1,0 +1,48 @@
+# Node / npm
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+.pnpm-debug.log
+
+# Lockfiles – keep only ONE
+# Keep: package-lock.json (recommended for Vercel + npm ci)
+# Remove: npm-shrinkwrap.json, yarn.lock, pnpm-lock.yaml
+npm-shrinkwrap.json
+yarn.lock
+pnpm-lock.yaml
+
+# Next.js
+.next/
+out/
+build/
+
+# Environment variables
+.env
+.env*.local
+.env.production
+.env.development
+
+# Vercel
+.vercel
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*~
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-*
+
+# Build artifacts
+dist/
+coverage/
+
+# Optional: Local dev database
+*.db
+*.sqlite
